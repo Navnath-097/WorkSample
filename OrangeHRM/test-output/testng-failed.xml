@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="CH"/>
+    <classes>
+      <class name="suite.TC_048_Skills_UI">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="Structure_UI"/>
+        </methods>
+      </class> <!-- suite.TC_048_Skills_UI -->
+      <class name="suite.TC_004_LoginWithInvalidCredentials">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="checkLogin1"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_004_LoginWithInvalidCredentials -->
+      <class name="suite.TC_044_Structure_UI">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="Structure_UI"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_044_Structure_UI -->
+      <class name="suite.TC_053_Licenses_Functional">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="Licenses_Functional"/>
+        </methods>
+      </class> <!-- suite.TC_053_Licenses_Functional -->
+      <class name="suite.TC_051_Education_Functional">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="Education_Functional"/>
+        </methods>
+      </class> <!-- suite.TC_051_Education_Functional -->
+      <class name="suite.TC_019_LoginButton_UI">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="LoginButton_UI"/>
+        </methods>
+      </class> <!-- suite.TC_019_LoginButton_UI -->
+      <class name="suite.TC_042_Locations_UI">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="Locations_UI"/>
+        </methods>
+      </class> <!-- suite.TC_042_Locations_UI -->
+      <class name="suite.TC_015_OrangeHRM_Twitter_UI">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="Twitter_UI"/>
+        </methods>
+      </class> <!-- suite.TC_015_OrangeHRM_Twitter_UI -->
+      <class name="suite.TC_005_CheckRequireUsername_Error_UI">
+        <methods>
+          <include name="checkLogin1"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_005_CheckRequireUsername_Error_UI -->
+      <class name="suite.TC_046_QualificationsDropdownList_UI">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="QualificationsDropdownList_UI"/>
+        </methods>
+      </class> <!-- suite.TC_046_QualificationsDropdownList_UI -->
+      <class name="suite.TC_009_CheckFooterLink_UI">
+        <methods>
+          <include name="FooterLink_UI"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_009_CheckFooterLink_UI -->
+      <class name="suite.TC_028_JobTitles_UI">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="JobTitles_UI"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_028_JobTitles_UI -->
+      <class name="suite.TC_032_EmploymentStatus_UI">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="EmploymentStatus_UI"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_032_EmploymentStatus_UI -->
+      <class name="suite.TC_027_JobDropdownList_Functional">
+        <methods>
+          <include name="JobDropdownList_Functional"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_027_JobDropdownList_Functional -->
+      <class name="suite.TC_065_EmailConfiguration_Functional">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="EmailConfiguration_Functional"/>
+        </methods>
+      </class> <!-- suite.TC_065_EmailConfiguration_Functional -->
+      <class name="suite.TC_007_ForgotPasswordLink_UI">
+        <methods>
+          <include name="ForgotPasswordLink_UI"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_007_ForgotPasswordLink_UI -->
+      <class name="suite.TC_064_EmailConfiguration_UI">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="EmailConfiguration_UI"/>
+        </methods>
+      </class> <!-- suite.TC_064_EmailConfiguration_UI -->
+      <class name="suite.TC_001_CheckURL">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="checkURL"/>
+        </methods>
+      </class> <!-- suite.TC_001_CheckURL -->
+      <class name="suite.TC_020_LoginWithInvalid_Functional">
+        <methods>
+          <include name="LoginWithInvalid_Functional"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_020_LoginWithInvalid_Functional -->
+      <class name="suite.TC_052_Licenses_UI">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="Licenses_UI"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_052_Licenses_UI -->
+      <class name="suite.TC_054_Languages_UI">
+        <methods>
+          <include name="Languages_UI"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_054_Languages_UI -->
+      <class name="suite.TC_043_Locations_Functional">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="Locations_Functional"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_043_Locations_Functional -->
+      <class name="suite.TC_041_General_Information_Functional">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="GeneralInformation_Functional"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_041_General_Information_Functional -->
+      <class name="suite.TC_024_Users_UI">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="UserManagementDropdownList_UI"/>
+        </methods>
+      </class> <!-- suite.TC_024_Users_UI -->
+      <class name="suite.TC_034_JobCategories_UI">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="JobCategories_UI"/>
+        </methods>
+      </class> <!-- suite.TC_034_JobCategories_UI -->
+      <class name="suite.TC_010_CheckFooterLink_Functional">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="checkLogo"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_010_CheckFooterLink_Functional -->
+      <class name="suite.TC_068_Localization_UI">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="Localization_UI"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_068_Localization_UI -->
+      <class name="suite.TC_059_NationalitiesButton_Functional">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="NationalitiesButton_Functional"/>
+        </methods>
+      </class> <!-- suite.TC_059_NationalitiesButton_Functional -->
+      <class name="suite.TC_061_CorporateBrandingButton_Functional">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="CorporateBrandingButton_Functional"/>
+        </methods>
+      </class> <!-- suite.TC_061_CorporateBrandingButton_Functional -->
+      <class name="suite.TC_069_Localization_Functional">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="Localization_Functional"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_069_Localization_Functional -->
+      <class name="suite.TC_021_LoginWithValid_Functional">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="LoginWithValid_Functional"/>
+        </methods>
+      </class> <!-- suite.TC_021_LoginWithValid_Functional -->
+      <class name="suite.TC_016_OrangeHRM_Twitter_Functional">
+        <methods>
+          <include name="Twitter_Functional"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_016_OrangeHRM_Twitter_Functional -->
+      <class name="suite.TC_012_Linkdin_Functional">
+        <methods>
+          <include name="linkedin"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_012_Linkdin_Functional -->
+      <class name="suite.TC_038_OrganizationDropdownList_UI">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="OrganizationDropdownList_UI"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_038_OrganizationDropdownList_UI -->
+      <class name="suite.TC_033_EmploymentStatus_Functional">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="EmploymentStatus_Functional"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_033_EmploymentStatus_Functional -->
+      <class name="suite.TC_008_ForgotPasswordLink_Functional">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="checkLogo"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_008_ForgotPasswordLink_Functional -->
+      <class name="suite.TC_022_UserManagementDropdownList_UI">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="UserManagementDropdownList_UI"/>
+        </methods>
+      </class> <!-- suite.TC_022_UserManagementDropdownList_UI -->
+      <class name="suite.TC_067_EmailSubscriptions_Functional">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="EmailSubscriptions_Functional"/>
+        </methods>
+      </class> <!-- suite.TC_067_EmailSubscriptions_Functional -->
+      <class name="suite.TC_060_CorporateBrandingButton_UI">
+        <methods>
+          <include name="CorporateBrandingButton_UI"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_060_CorporateBrandingButton_UI -->
+      <class name="suite.TC_013_OrangeHRM_Facebook_UI">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="Facebook_UI"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_013_OrangeHRM_Facebook_UI -->
+      <class name="suite.TC_063_ConfigurationDropdownList_Functional">
+        <methods>
+          <include name="ConfigurationDropdownList_Functional"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_063_ConfigurationDropdownList_Functional -->
+      <class name="suite.TC_047_QualificationsDropdownList_Functional">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="QualificationsDropdownList_Functional"/>
+        </methods>
+      </class> <!-- suite.TC_047_QualificationsDropdownList_Functional -->
+      <class name="suite.TC_014_OrangeHRM_Facebook_Functional">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="Facebook_Functional"/>
+        </methods>
+      </class> <!-- suite.TC_014_OrangeHRM_Facebook_Functional -->
+      <class name="suite.TC_031_PayGrades_Functional">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="PayGrades_Functional"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_031_PayGrades_Functional -->
+      <class name="suite.TC_029_JobTitles_Functional">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="JobTitles_Functionals"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_029_JobTitles_Functional -->
+      <class name="suite.TC_003_Login_text_UI">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="LoginText_UI"/>
+        </methods>
+      </class> <!-- suite.TC_003_Login_text_UI -->
+      <class name="suite.TC_039_OrganizationDropdownList_Functional">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="OrganizationDropdownList_Functional"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_039_OrganizationDropdownList_Functional -->
+      <class name="suite.TC_036_WorkShifts_UI">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="WorkShifts_UI"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_036_WorkShifts_UI -->
+      <class name="suite.TC_066_EmailSubscriptions_UI">
+        <methods>
+          <include name="EmailSubscriptions_UI"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_066_EmailSubscriptions_UI -->
+      <class name="suite.TC_030_PayGrades_UI">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="PayGrades_UI"/>
+        </methods>
+      </class> <!-- suite.TC_030_PayGrades_UI -->
+      <class name="suite.TC_017_OrangeHRM_YouTube_UI">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="YouTube_UI"/>
+        </methods>
+      </class> <!-- suite.TC_017_OrangeHRM_YouTube_UI -->
+      <class name="suite.TC_025_Users_Functional">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="UserManagementDropdownList_UI"/>
+        </methods>
+      </class> <!-- suite.TC_025_Users_Functional -->
+      <class name="suite.TC_058_NationalitiesButton_UI">
+        <methods>
+          <include name="NationalitiesButton_UI"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_058_NationalitiesButton_UI -->
+      <class name="suite.TC_026_JobDropdownList_UI">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="JobDropdownList_UI"/>
+        </methods>
+      </class> <!-- suite.TC_026_JobDropdownList_UI -->
+      <class name="suite.TC_023_UserManagementDropdownList_Functional">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="UserManagementDropdownList_Functional"/>
+        </methods>
+      </class> <!-- suite.TC_023_UserManagementDropdownList_Functional -->
+      <class name="suite.TC_040_General_Information_UI">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="GeneralInformation_UI"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_040_General_Information_UI -->
+      <class name="suite.TC_035_JobCategories_Functional">
+        <methods>
+          <include name="JobCategories_Functional"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_035_JobCategories_Functional -->
+      <class name="suite.TC_050_Education_UI">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="Education_UI"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_050_Education_UI -->
+      <class name="suite.TC_049_Skills_Functional">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="Structure_Functional"/>
+        </methods>
+      </class> <!-- suite.TC_049_Skills_Functional -->
+      <class name="suite.TC_006_CheckRequiredPassword_Error_UI">
+        <methods>
+          <include name="checkLogin2"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_006_CheckRequiredPassword_Error_UI -->
+      <class name="suite.TC_018_OrangeHRM_YouTube_Functional">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="YouTube_Functional"/>
+        </methods>
+      </class> <!-- suite.TC_018_OrangeHRM_YouTube_Functional -->
+      <class name="suite.TC_057_Memberships_Functional">
+        <methods>
+          <include name="Memberships_Functional"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_057_Memberships_Functional -->
+      <class name="suite.TC_037_WorkShifts_Functional">
+        <methods>
+          <include name="WorkShifts_Functional"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_037_WorkShifts_Functional -->
+      <class name="suite.TC_056_Memberships_UI">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="Memberships_UI"/>
+        </methods>
+      </class> <!-- suite.TC_056_Memberships_UI -->
+      <class name="suite.TC_045_Structure_Functional">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="Structure_Functional"/>
+        </methods>
+      </class> <!-- suite.TC_045_Structure_Functional -->
+      <class name="suite.TC_002_CheckLogo">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="checkLogo"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_002_CheckLogo -->
+      <class name="suite.TC_055_Languages_Functional">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="Languages_Functional"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_055_Languages_Functional -->
+      <class name="suite.TC_062_ConfigurationDropdownList_UI">
+        <methods>
+          <include name="ConfigurationDropdownList_UI"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- suite.TC_062_ConfigurationDropdownList_UI -->
+      <class name="suite.TC_011_Linkedin_UI">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="LinkedIn_UI"/>
+        </methods>
+      </class> <!-- suite.TC_011_Linkedin_UI -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite">
+  <test thread-count="5" parallel="classes" name="Test">
+  <parameter name="browser" value="ED"></parameter>
+    <classes>
+      <class name="suite.TC_069_Localization_Functional"/>
+      <class name="suite.TC_051_Education_Functional"/>
+      <class name="suite.TC_059_NationalitiesButton_Functional"/>
+      <class name="suite.TC_060_CorporateBrandingButton_UI"/>
+      <class name="suite.TC_047_QualificationsDropdownList_Functional"/>
+      <class name="suite.TC_048_Skills_UI"/>
+      <class name="suite.TC_007_ForgotPasswordLink_UI"/>
+      <class name="suite.TC_056_Memberships_UI"/>
+      <class name="suite.TC_015_OrangeHRM_Twitter_UI"/>
+      <class name="suite.TC_043_Locations_Functional"/>
+      <class name="suite.TC_044_Structure_UI"/>
+      <class name="suite.TC_034_JobCategories_UI"/>
+      <class name="suite.TC_012_Linkdin_Functional"/>
+      <class name="suite.TC_027_JobDropdownList_Functional"/>
+      <class name="suite.TC_005_CheckRequireUsername_Error_UI"/>
+      <class name="suite.TC_011_Linkedin_UI"/>
+      <class name="suite.TC_045_Structure_Functional"/>
+      <class name="suite.TC_063_ConfigurationDropdownList_Functional"/>
+      <class name="suite.TC_058_NationalitiesButton_UI"/>
+      <class name="suite.TC_021_LoginWithValid_Functional"/>
+      <class name="suite.TC_010_CheckFooterLink_Functional"/>
+      <class name="suite.TC_030_PayGrades_UI"/>
+      <class name="suite.TC_068_Localization_UI"/>
+      <class name="suite.TC_016_OrangeHRM_Twitter_Functional"/>
+      <class name="suite.TC_003_Login_text_UI"/>
+      <class name="suite.TC_062_ConfigurationDropdownList_UI"/>
+      <class name="suite.TC_032_EmploymentStatus_UI"/>
+      <class name="suite.TC_004_LoginWithInvalidCredentials"/>
+      <class name="suite.TC_022_UserManagementDropdownList_UI"/>
+      <class name="suite.TC_029_JobTitles_Functional"/>
+      <class name="suite.TC_038_OrganizationDropdownList_UI"/>
+      <class name="suite.TC_017_OrangeHRM_YouTube_UI"/>
+      <class name="suite.TC_013_OrangeHRM_Facebook_UI"/>
+      <class name="suite.TC_061_CorporateBrandingButton_Functional"/>
+      <class name="suite.TC_055_Languages_Functional"/>
+      <class name="suite.TC_025_Users_Functional"/>
+      <class name="suite.TC_041_General_Information_Functional"/>
+      <class name="suite.TC_019_LoginButton_UI"/>
+      <class name="suite.TC_002_CheckLogo"/>
+      <class name="suite.TC_039_OrganizationDropdownList_Functional"/>
+      <class name="suite.TC_057_Memberships_Functional"/>
+      <class name="suite.TC_040_General_Information_UI"/>
+      <class name="suite.TC_020_LoginWithInvalid_Functional"/>
+      <class name="suite.TC_046_QualificationsDropdownList_UI"/>
+      <class name="suite.TC_008_ForgotPasswordLink_Functional"/>
+      <class name="suite.TC_031_PayGrades_Functional"/>
+      <class name="suite.TC_018_OrangeHRM_YouTube_Functional"/>
+      <class name="suite.TC_006_CheckRequiredPassword_Error_UI"/>
+      <class name="suite.TC_049_Skills_Functional"/>
+      <class name="suite.TC_052_Licenses_UI"/>
+      <class name="suite.TC_036_WorkShifts_UI"/>
+      <class name="suite.TC_009_CheckFooterLink_UI"/>
+      <class name="suite.TC_001_CheckURL"/>
+      <class name="suite.TC_023_UserManagementDropdownList_Functional"/>
+      <class name="suite.TC_067_EmailSubscriptions_Functional"/>
+      <class name="suite.TC_050_Education_UI"/>
+      <class name="suite.TC_037_WorkShifts_Functional"/>
+      <class name="suite.TC_035_JobCategories_Functional"/>
+      <class name="suite.TC_066_EmailSubscriptions_UI"/>
+      <class name="suite.TC_065_EmailConfiguration_Functional"/>
+      <class name="suite.TC_033_EmploymentStatus_Functional"/>
+      <class name="suite.TC_014_OrangeHRM_Facebook_Functional"/>
+      <class name="suite.TC_042_Locations_UI"/>
+      <class name="suite.TC_064_EmailConfiguration_UI"/>
+      <class name="suite.TC_054_Languages_UI"/>
+      <class name="suite.TC_026_JobDropdownList_UI"/>
+      <class name="suite.TC_024_Users_UI"/>
+      <class name="suite.TC_053_Licenses_Functional"/>
+      <class name="suite.TC_028_JobTitles_UI"/>
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
